@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-combine-mq/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-combine-mq/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-combine-mq/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-combine-mq/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-combine-mq/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-combine-mq/build/coverage.html/index.html)
 
@@ -105,7 +105,8 @@
         "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
         "test": "istanbul test _mocha --report html -- test/*.js --reporter spec"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
